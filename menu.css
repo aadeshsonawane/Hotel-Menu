@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu{
+    width: 50%;
+    border: 2px solid black;
+    height: auto;
+    margin: 5px auto;
+    background: -moz-linear-gradient(rgb(236, 129, 5), rgb(248, 212, 9));
+
+}
+    
+.menu1{
+    width: 99%;
+    border: 2px solid black;
+    height: auto;
+    margin: 5px auto;
+
+}
+.name{
+
+    width: 100%;
+    border: 1px solid rgb(248, 204, 9);
+    height: 100px;
+    margin: 0px auto;
+    position: relative;
+
+}
+.one{
+    position: absolute;
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    top: 0px;
+}
+.one img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.two{
+    position: absolute;
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    right: 0px;
+    top: 0px;
+}
+.two img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+.name h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+    font-size: 50px;
+    color: black;
+    text-shadow: 3px 4px 2px black;
+}
+.box1{
+    border: 1px solid rebeccapurple;
+    width: 100%;
+    height:30% ;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.iteam{
+    border: 1px solid green;
+    width: 60%;
+    height: 100%;
+    position: relative;
+    
+}
+.iteam li{
+    font-size: larger;
+    color: black;
+}
+.iteam .price{
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    border: 1px solid yellow;
+    width: 50px;
+    height: 70%;
+    font-size: larger;
+    color:black;
+    
+}
+.iteam h3{
+    margin-left: 5px;
+    background-color: rgb(250, 4, 4);
+    width: 150px;
+    padding: 5px;
+    border-radius: 40%;
+}
+
+.pic{
+    border: 1px solid green;
+    width: 30%;
+    height: 100%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.pic img{
+     width: 100%;
+     height: 100%;
+     border-radius: 50%;
+}
+.box2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box2 .iteam{
+    margin-left: 20px;
+}
+.box3{
+    border: 1px solid rebeccapurple;
+    width: 100%;
+    height:30% ;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
